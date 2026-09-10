@@ -1,5 +1,4 @@
-# daytwan.github.io
-Visualizing Data Portfolio
+# Visualizing Data Portfolio
 
-![Visualization 1](/gold.pdf)
-![Visualization 2](/silver.pdf)
+![Visualization 1](/gold.png)
+![Visualization 2](/silver.png)
