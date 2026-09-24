@@ -1,4 +1,56 @@
 body {
+  margin: 0;
+  background-image: url("images/denver_nights.png");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-color: black;
-  color: white;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  color: gold;
+  text-shadow: black;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  animation: 1.5s infinite alternate bounce;
+}
+h2.visuals {
+  color: gold;
+}
+.visuals {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex-direction: row;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+div.visuals {
+  color: red;
+}
+
+footer {
+  align-content: flex-end;
+  background-color: black;
+  flex-basis: auto;
 }
