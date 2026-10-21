@@ -21,7 +21,7 @@ h1 {
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  animation: 1.5s infinite alternate bounce;
+  animation: 3.5s infinite alternate bounce;
 }
 h2.visuals {
   color: gold;
